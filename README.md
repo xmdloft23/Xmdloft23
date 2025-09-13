@@ -54,22 +54,22 @@
 <table>
 <tr>
 <td>
-  <a href="https://instagram.com/Silando">
+  <a href="https://instagram.com/really_loft">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 </td>
 <td>
-  <a href="https://t.me/Megahubbots">
+  <a href="https://t.me/loft_xmd">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
 </td>
 <td>
-  <a href="mailto:freenethubbusiness@gmail.com">
+  <a href="mailto: shaddyshaddy047@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </td>
 <td>
-  <a href="https://youtube.com/@Freenethubtech">
+  <a href="https://youtube.com/@loftxmd23">
     <img src="https://img.shields.io/badge/YouTube-DD0000?style=for-the-badge&logo=youtube&logoColor=white" />
   </a>
 </td>
