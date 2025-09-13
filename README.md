@@ -8,7 +8,7 @@
   <table>
     <tr>
       <td width="100px" align="center">
-        <img src="https://files.catbox.moe/r2ga8f.jpg" width="90px" style="border-radius: 50%;" />
+        <img src="https://files.catbox.moe/cfeyqz.jpg" width="90px" style="border-radius: 50%;" />
       </td>
       <td>
         <img src="https://readme-typing-svg.herokuapp.com?color=00BFFF&width=600&lines=🦋+💗+WELCOME+TO+MY+GITHUB;🖤+THIS+IS+ANONY+HACK+🥀;💓+THANK+YOU+FOR+VISITING+MY+PROFILE+🌲+❗️" />
