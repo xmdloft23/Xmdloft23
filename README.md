@@ -29,6 +29,8 @@
 
 ---
 
+![Profile Banner](https://files.catbox.moe/khwhxk.jpg)
+
 ## 📌 About Me
 
 <table>
