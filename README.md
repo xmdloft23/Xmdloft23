@@ -1,3 +1,16 @@
+<div align="center">
+        <img src="welcome-header.gif" alt="welcome to my github profile">
+        <br>
+        <br>
+</div>
+
+**i love code**&nbsp;&nbsp;![](cat-typing.gif)&nbsp;&nbsp;**and unicorns**&nbsp;&nbsp;![](unicorn.gif)
+
+<img src="party-furby.gif" align="right" width="60">
+
+<br>
+
+
 <!-- ✨ Animated Header (Top) -->
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" />
