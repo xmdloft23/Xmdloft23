@@ -1,4 +1,4 @@
-![MR LOFT](https://github.com/RushilSethi/RushilSethi/blob/main/animated_name.svg)
+![MR LOFT](https://github.com/MR LOFT/MR LOFT/blob/main/animated_name.svg)
 
 
 <!-- ✨ Animated Header (Top) -->
