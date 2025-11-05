@@ -18,7 +18,7 @@ interface Developer {
 const adithya: Developer = {
   name: "Mr Loft",
   location: "Mbeya, Tanzania",
-  company: "Vincere Technology",
+  company: "LOFT QUANTUM INC",
   role: "Founder",
   currentProject: "PersonaBox - Create AI chats with custom personality",
   interests: ["Backend Development", "Game Development", "AI Innovation"],
