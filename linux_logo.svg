@@ -1,1 +1,75 @@
- 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="600" height="700">
+  <title>Linux Tux - amekaa na tumbo linawaka-kuzima</title>
+  <style>
+    svg { background: #000; }
+    
+    /* Tux body (yellow stroke + fill animation) */
+    .tux {
+      animation: draw 6s infinite alternate;
+      stroke: #FFD633;
+      stroke-width: 5;
+      fill: #FFD633;
+    }
+    
+    /* Tumbo glowing on/off */
+    #belly {
+      animation: glow 2.5s infinite ease-in-out;
+      opacity: 0.9;
+    }
+    
+    @keyframes draw {
+      0% {
+        fill: transparent;
+        stroke-dasharray: 0 50%;
+        stroke-dashoffset: 25%;
+      }
+      70% { fill: transparent; }
+      100% {
+        fill: #FFD633;
+        stroke-dasharray: 50% 0;
+        stroke-dashoffset: -25%;
+        stroke: transparent;
+      }
+    }
+    
+    @keyframes glow {
+      0%   { fill: #FF8C00; opacity: 0.6; }
+      50%  { fill: #FFFF00; opacity: 1; }
+      100% { fill: #FF8C00; opacity: 0.6; }
+    }
+  </style>
+
+  <!-- Tux amekaa -->
+  <g class="tux" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Kichwa -->
+    <path d="M300,120 
+             C200,120 120,200 120,300 
+             C120,400 200,480 300,480 
+             C400,480 480,400 480,300 
+             C480,200 400,120 300,120 Z"/>
+    
+    <!-- Macho -->
+    <circle cx="220" cy="230" r="35" fill="#000"/>
+    <circle cx="380" cy="230" r="35" fill="#000"/>
+    <circle cx="230" cy="220" r="15" fill="#FFF"/>
+    <circle cx="390" cy="220" r="15" fill="#FFF"/>
+    
+    <!-- Mdomo/macho ya chini (beak) -->
+    <path d="M300,280 Q260,320 300,330 Q340,320 300,280" fill="#FFAA00"/>
+    
+    <!-- Mwili (amekaa) -->
+    <path d="M120,300 
+             Q120,500 200,580 
+             Q300,640 300,640 
+             Q300,640 400,580 
+             Q480,500 480,300 
+             C480,300 120,300 120,300 Z" fill="#FFD633"/>
+    
+    <!-- Miko ya miguu -->
+    <ellipse cx="200" cy="600" rx="80" ry="40" fill="#FFAA00"/>
+    <ellipse cx="400" cy="600" rx="80" ry="40" fill="#FFAA00"/>
+    
+    <!-- Tumbo linalowaka na kuzima -->
+    <ellipse id="belly" cx="300" cy="460" rx="130" ry="140" fill="#FFFF00"/>
+  </g>
+</svg>
