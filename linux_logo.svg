@@ -1,75 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="600" height="700">
-  <title>Linux Tux - amekaa na tumbo linawaka-kuzima</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="280" height="280">
+  <title>Tux - Linux Mascot (tumbo linawaka-kuzima)</title>
   <style>
-    svg { background: #000; }
-    
-    /* Tux body (yellow stroke + fill animation) */
-    .tux {
-      animation: draw 6s infinite alternate;
-      stroke: #FFD633;
-      stroke-width: 5;
-      fill: #FFD633;
-    }
-    
-    /* Tumbo glowing on/off */
-    #belly {
-      animation: glow 2.5s infinite ease-in-out;
-      opacity: 0.9;
-    }
-    
-    @keyframes draw {
-      0% {
-        fill: transparent;
-        stroke-dasharray: 0 50%;
-        stroke-dashoffset: 25%;
-      }
-      70% { fill: transparent; }
-      100% {
-        fill: #FFD633;
-        stroke-dasharray: 50% 0;
-        stroke-dashoffset: -25%;
-        stroke: transparent;
-      }
-    }
-    
+    svg { background: transparent; }
+    #belly { animation: glow 3s ease-in-out infinite alternate; }
     @keyframes glow {
-      0%   { fill: #FF8C00; opacity: 0.6; }
-      50%  { fill: #FFFF00; opacity: 1; }
-      100% { fill: #FF8C00; opacity: 0.6; }
+      from { fill: #fff4b3; opacity: 0.8; }
+      to   { fill: #ffff00; opacity: 1; }
     }
   </style>
 
-  <!-- Tux amekaa -->
-  <g class="tux" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Kichwa -->
-    <path d="M300,120 
-             C200,120 120,200 120,300 
-             C120,400 200,480 300,480 
-             C400,480 480,400 480,300 
-             C480,200 400,120 300,120 Z"/>
-    
-    <!-- Macho -->
-    <circle cx="220" cy="230" r="35" fill="#000"/>
-    <circle cx="380" cy="230" r="35" fill="#000"/>
-    <circle cx="230" cy="220" r="15" fill="#FFF"/>
-    <circle cx="390" cy="220" r="15" fill="#FFF"/>
-    
-    <!-- Mdomo/macho ya chini (beak) -->
-    <path d="M300,280 Q260,320 300,330 Q340,320 300,280" fill="#FFAA00"/>
-    
-    <!-- Mwili (amekaa) -->
-    <path d="M120,300 
-             Q120,500 200,580 
-             Q300,640 300,640 
-             Q300,640 400,580 
-             Q480,500 480,300 
-             C480,300 120,300 120,300 Z" fill="#FFD633"/>
-    
-    <!-- Miko ya miguu -->
-    <ellipse cx="200" cy="600" rx="80" ry="40" fill="#FFAA00"/>
-    <ellipse cx="400" cy="600" rx="80" ry="40" fill="#FFAA00"/>
-    
-    <!-- Tumbo linalowaka na kuzima -->
-    <ellipse id="belly" cx="300" cy="460" rx="130" ry="140" fill="#FFFF00"/>
-  </g>
+  <!-- Mwili mwekundu/mweusi wa kawaida -->
+  <path fill="#000" d="M256 0c-70.7 0 134.6 28.7 181 75.1l-45.3 45.3C356.8 86.7 308.6 64 256 64c-52.6 0-100.8 22.7-134.5 60.4L76.1 75.1C122.5 28.7 186.4 0 256 0z"/>
+  <path fill="#fff" d="M134.5 121.4c-33.7 37.7-54.5 90.4-54.5 134.6 0 44.2 20.8 83.3 54.5 121l45.3-45.3c-22.2-24.7-35.3-56.7-35.3-90.7 0-34 13.1-66 35.3-90.7l-45.3-45.3z"/>
+  <path fill="#fff" d="M377.5 121.4l-45.3 45.3c22.2 24.7 35.3 56.7 35.3 90.7 0 34-13.1 66-35.3 90.7l45.3 45.3c33.7-37.7 54.5-76.8 54.5-121 0-44.2-20.8-83.3-54.5-121z"/>
+  
+  <!-- Kichwa cheusi -->
+  <circle fill="#000" cx="256" cy="224" r="112"/>
+  
+  <!-- Macho meupe -->
+  <circle fill="#fff" cx="200" cy="192" r="48"/>
+  <circle fill="#fff" cx="312" cy="192" r="48"/>
+  
+  <!-- Macho meusi ndani -->
+  <circle fill="#000" cx="216" cy="192" r="24"/>
+  <circle fill="#000" cx="328" cy="192" r="24"/>
+  
+  <!-- Mdomo/midomo ya manjano -->
+  <path fill="#ffdd00" d="M176 288c0 44.2 35.8 80 80 80s80-35.8 80-80h-160z"/>
+  
+  <!-- Miko ya miguu (manjano) -->
+  <ellipse fill="#ffdd00" cx="176" cy="448" rx="64" ry="48"/>
+  <ellipse fill="#ffdd00" cx="336" cy="448" rx="64" ry="48"/>
+  
+  <!-- Tumbo jeupe + glow effect -->
+  <ellipse id="belly" cx="256" cy="360" rx="112" ry="128" fill="#ffff00"/>
 </svg>
