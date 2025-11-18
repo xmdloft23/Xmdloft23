@@ -1,7 +1,6 @@
 ![Mr loft](https://github.com/Xmdloft23/Xmdloft23/blob/main/animated_name.svg)
 
 
-![Mr loft](https://raw.githubusercontent.com/Xmdloft23/Xmdloft23/main/linux_logo.svg)
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"> Quantum CEO
 
